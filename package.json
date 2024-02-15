@@ -1,11 +1,11 @@
 {
-  "name": "grapesjs-jp",
+  "name": "grapesjs-ja",
   "version": "1.0.2",
-  "description": "grapesjs-jp",
+  "description": "grapesjs-ja",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/guppi65513461/grapesjs-jp.git"
+    "url": "https://github.com/guppi_tw/grapesjs-ja.git"
   },
   "scripts": {
     "start": "grapesjs-cli serve",
