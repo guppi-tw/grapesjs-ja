@@ -1,98 +1,103 @@
-# grapesjs-jp
+# grapesjs-ja
 
-[DEMO](##)
-> **Provide a live demo of your plugin**
-For a better user engagement create a simple live demo by using services like [JSFiddle](https://jsfiddle.net) [CodeSandbox](https://codesandbox.io) [CodePen](https://codepen.io) and link it here in your README (attaching a screenshot/gif will also be a plus).
-To help you in this process here below you will find the necessary HTML/CSS/JS, so it just a matter of copy-pasting on some of those services. After that delete this part and update the link above
+[DEMO](https://codepen.io/guppi-tw/pen/mdovdmx)
 
 ### HTML
+
 ```html
-<link href="https://unpkg.com/grapesjs/dist/css/grapes.min.css" rel="stylesheet">
+<link
+  href="https://unpkg.com/grapesjs/dist/css/grapes.min.css"
+  rel="stylesheet"
+/>
 <script src="https://unpkg.com/grapesjs"></script>
-<script src="https://unpkg.com/grapesjs-jp"></script>
+<script src="https://unpkg.com/grapesjs-ja"></script>
 
 <div id="gjs"></div>
 ```
 
 ### JS
+
 ```js
 const editor = grapesjs.init({
-	container: '#gjs',
-  height: '100%',
+  container: "#gjs",
+  height: "100%",
   fromElement: true,
   storageManager: false,
-  plugins: ['grapesjs-jp'],
+  plugins: ["grapesjs-ja"],
 });
 ```
 
 ### CSS
+
 ```css
-body, html {
+body,
+html {
   margin: 0;
   height: 100%;
 }
 ```
 
-
 ## Summary
 
-* Plugin name: `grapesjs-jp`
-* Components
-    * `component-id-1`
-    * `component-id-2`
-    * ...
-* Blocks
-    * `block-id-1`
-    * `block-id-2`
-    * ...
-
-
+- Plugin name: `grapesjs-ja`
+<!-- - Components
+  - `component-id-1`
+  - `component-id-2`
+  - ...
+- Blocks
+  - `block-id-1`
+  - `block-id-2`
+  - ... -->
+  <!--
 
 ## Options
 
-| Option | Description | Default |
-|-|-|-
-| `option1` | Description option | `default value` |
-
-
+| Option    | Description        | Default         |
+| --------- | ------------------ | --------------- | --- |
+| `option1` | Description option | `default value` | --> |
 
 ## Download
 
-* CDN
-  * `https://unpkg.com/grapesjs-jp`
-* NPM
-  * `npm i grapesjs-jp`
-* GIT
-  * `git clone https://github.com/guppi65513461/grapesjs-jp.git`
-
-
+- CDN
+  - `https://unpkg.com/grapesjs-ja`
+- NPM
+  - `npm i grapesjs-ja`
+- GIT
+  - `git clone https://github.com/guppi65513461/grapesjs-ja.git`
 
 ## Usage
 
 Directly in the browser
+
 ```html
-<link href="https://unpkg.com/grapesjs/dist/css/grapes.min.css" rel="stylesheet"/>
+<link
+  href="https://unpkg.com/grapesjs/dist/css/grapes.min.css"
+  rel="stylesheet"
+/>
 <script src="https://unpkg.com/grapesjs"></script>
-<script src="path/to/grapesjs-jp.min.js"></script>
+<script src="path/to/grapesjs-ja.min.js"></script>
 
 <div id="gjs"></div>
 
 <script type="text/javascript">
   var editor = grapesjs.init({
-      container: '#gjs',
-      // ...
-      plugins: ['grapesjs-jp'],
-      pluginsOpts: {
-        'grapesjs-jp': { /* options */ }
-      }
+    container: "#gjs",
+    // ...
+    plugins: ["grapesjs-ja"],
+    pluginsOpts: {
+      "grapesjs-ja": {
+        /* options */
+      },
+    },
   });
 </script>
 ```
 
 Modern javascript
+
 ```js
 import grapesjs from 'grapesjs';
-import plugin from 'grapesjs-jp';
+import plugin from 'grapesjs-ja';
 import 'grapesjs/dist/css/grapes.min.css';
 
 const editor = grapesjs.init({
@@ -109,15 +114,13 @@ const editor = grapesjs.init({
 });
 ```
 
-
-
 ## Development
 
 Clone the repository
 
 ```sh
-$ git clone https://github.com/guppi65513461/grapesjs-jp.git
-$ cd grapesjs-jp
+$ git clone https://github.com/guppi65513461/grapesjs-ja.git
+$ cd grapesjs-ja
 ```
 
 Install dependencies
@@ -137,8 +140,6 @@ Build the source
 ```sh
 $ npm run build
 ```
-
-
 
 ## License
 
