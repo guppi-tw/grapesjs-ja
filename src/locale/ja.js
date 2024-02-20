@@ -92,7 +92,7 @@ export default {
       'font-family': 'フォントの種類',
       'font-size': 'フォントの大きさ',
       'font-weight': 'フォントの太さ',
-      'letter-spacing': 'フォントの大きさ',
+      'letter-spacing': '文字の間隔',
       'color': '色',
       'line-height': '行の高さ',
       'text-align': '文字の並び方',
